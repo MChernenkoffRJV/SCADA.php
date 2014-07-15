@@ -10,7 +10,6 @@
     <?php
 		echo "<title>" . $_GET["SAP_ID"] . "</title>"
 	?>
-	<!-- <title>SELUGLCA214 LUG, COMP CU 2AWG 1/4" BOLT</title> -->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,12 +20,11 @@
         margin-top: 60px;
     }
     </style>
-
 </head>
 
 <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- 
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -38,8 +36,8 @@
                 <a class="navbar-brand" href="index.php">Start Bootstrap</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <!-- Collect the nav links, forms, and other content for toggling --> <!--
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#about">About</a>
                     </li>
@@ -49,10 +47,11 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.navbar-collapse --> <!-- 
         </div>
-        <!-- /.container -->
+        <!-- /.container --> <!--
     </nav>
+	--> 
 
     <div class="container">
 	<?php	
